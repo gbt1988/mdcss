@@ -1,0 +1,144 @@
+/* C1 — Dusty Indigo + Sans | Mobile Reading */
+
+.markdown-here-wrapper {
+  font-size: 17px;
+  line-height: 1.78;
+  letter-spacing: 0.01em;
+  color: #3C3E47;
+  font-weight: 400;
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text",
+    "Hiragino Sans GB", "PingFang SC", "Microsoft YaHei",
+    "Noto Sans CJK SC", "Source Han Sans SC", sans-serif;
+  word-wrap: break-word;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.markdown-here-wrapper > *:first-child { margin-top: 0 !important; }
+.markdown-here-wrapper > *:last-child { margin-bottom: 0 !important; }
+
+.markdown-here-wrapper p,
+.markdown-here-wrapper ul,
+.markdown-here-wrapper ol,
+.markdown-here-wrapper blockquote,
+.markdown-here-wrapper table,
+.markdown-here-wrapper pre {
+  margin: 0.95em 0;
+}
+
+.markdown-here-wrapper a {
+  color: #7A7FD1;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(122, 127, 209, 0.26);
+}
+
+.markdown-here-wrapper a:hover {
+  border-bottom-color: #7A7FD1;
+}
+
+.markdown-here-wrapper strong,
+.markdown-here-wrapper b {
+  color: #7A7FD1;
+  font-weight: 600;
+}
+
+.markdown-here-wrapper h1,
+.markdown-here-wrapper h2,
+.markdown-here-wrapper h3,
+.markdown-here-wrapper h4,
+.markdown-here-wrapper h5,
+.markdown-here-wrapper h6 {
+  color: #3C3E47;
+  font-weight: 600;
+  line-height: 1.35;
+  margin: 1.35em 0 0.68em;
+}
+
+.markdown-here-wrapper h1 {
+  font-size: 1.7em;
+  text-align: center;
+  padding-bottom: 0.42em;
+  border-bottom: 2px solid #7A7FD1;
+}
+
+.markdown-here-wrapper h2 {
+  font-size: 1.32em;
+  padding-left: 0.55em;
+  border-left: 4px solid #7A7FD1;
+}
+
+.markdown-here-wrapper h3 {
+  font-size: 1.14em;
+  color: #7A7FD1;
+}
+
+.markdown-here-wrapper ul,
+.markdown-here-wrapper ol {
+  padding-left: 1.35em;
+}
+
+.markdown-here-wrapper li {
+  margin: 0.28em 0;
+}
+
+.markdown-here-wrapper blockquote {
+  margin-left: 0;
+  padding: 0.82em 0.95em;
+  color: #555866;
+  background: #F7F7FC;
+  border-left: 4px solid #7A7FD1;
+  border-radius: 4px;
+}
+
+.markdown-here-wrapper code {
+  font-size: 0.92em;
+  font-family: "SFMono-Regular", Consolas, Menlo, monospace;
+  background: #F7F7FC;
+  color: #666CC4;
+  padding: 0.12em 0.34em;
+  border-radius: 4px;
+}
+
+.markdown-here-wrapper pre {
+  background: #F7F7FC;
+  border: 1px solid rgba(122, 127, 209, 0.16);
+  border-radius: 8px;
+  padding: 0.9em 1em;
+  overflow: auto;
+  line-height: 1.62;
+}
+
+.markdown-here-wrapper pre code {
+  background: transparent;
+  color: #3C3E47;
+  padding: 0;
+}
+
+.markdown-here-wrapper table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95em;
+}
+
+.markdown-here-wrapper th,
+.markdown-here-wrapper td {
+  padding: 0.68em 0.8em;
+  border: 1px solid #E3E4F3;
+  text-align: left;
+}
+
+.markdown-here-wrapper th {
+  background: #7A7FD1;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.markdown-here-wrapper tr:nth-child(even) td {
+  background: #F7F7FC;
+}
+
+.markdown-here-wrapper hr {
+  border: 0;
+  border-top: 1px solid rgba(122, 127, 209, 0.22);
+  margin: 1.8em 0;
+}
