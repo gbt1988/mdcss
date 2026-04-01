@@ -1,36 +1,36 @@
 .markdown-here-wrapper {
   color: #3e3e3e;
-  font-size: 15px;
-  line-height: 1.7;
-  padding: 30px;
+  font-size: 16px;
+  line-height: 1.72;
+  padding: 8px 6px;
   box-sizing: border-box;
 }
 
 .markdown-here-wrapper p {
-  letter-spacing: 1px !important;
-  line-height: 1.7 !important;
+  letter-spacing: 0.2px !important;
+  line-height: 1.72 !important;
   min-height: 1em !important;
   box-sizing: border-box !important;
   word-wrap: break-word !important;
   text-align: justify;
-  margin: 20px 0 !important;
+  margin: 18px 0 !important;
 }
 
 .markdown-here-wrapper blockquote {
   background: #f9f9f9;
-  border-left: 5px solid #5599FF;
+  border-left: 5px solid #6FA8E8;
   margin: 1.5em 0;
-  padding: 0.5em 10px;
+  padding: 0.55em 12px;
   quotes: "\201C""\201D""\2018""\2019";
 }
 
 .markdown-here-wrapper blockquote:before {
-  color: #5599FF;
+  color: #6FA8E8;
   content: open-quote;
-  font-size: 4em;
+  font-size: 3.6em;
   line-height: 0.1em;
-  margin-right: 0.25em;
-  vertical-align: -0.4em;
+  margin-right: 0.2em;
+  vertical-align: -0.42em;
 }
 
 .markdown-here-wrapper blockquote p {
@@ -39,12 +39,12 @@
 
 .markdown-here-wrapper strong {
   font-weight: 600;
-  color: #FD5B03;
+  color: #B86A3C;
 }
 
 .markdown-here-wrapper em,
 .markdown-here-wrapper i {
-  color: #9955FF;
+  color: #7A6FA8;
   font-style: italic;
 }
 
@@ -54,50 +54,52 @@
 .markdown-here-wrapper h4,
 .markdown-here-wrapper h5,
 .markdown-here-wrapper h6 {
-  margin: 20px 0;
-  line-height: 1.2;
+  margin: 22px 0 14px;
+  line-height: 1.25;
   text-align: left;
-  font-weight: bold;
-  padding-left: 15px;
+  font-weight: 700;
+  padding-left: 10px;
   background: transparent !important;
   text-shadow: none !important;
   box-shadow: none !important;
   word-break: break-word;
   overflow-wrap: break-word;
+  color: #2f3440;
 }
 
+/* 三色体系：暖红 / 青绿 / 清透蓝 */
 .markdown-here-wrapper h1 {
-  border-left: 6px solid #FF3333 !important;
+  border-left: 6px solid #D96C6C !important;
   font-size: 24px !important;
 }
 
 .markdown-here-wrapper h2 {
-  border-left: 4px solid #3A8619 !important;
+  border-left: 4px solid #58A889 !important;
   font-size: 20px !important;
 }
 
 .markdown-here-wrapper h3 {
-  border-left: 4px solid #71BA51 !important;
+  border-left: 4px solid #6FA8E8 !important;
   font-size: 17px !important;
 }
 
 .markdown-here-wrapper h4 {
-  border-left: 4px solid #0174DF !important;
-  font-size: 14px !important;
+  border-left: 4px solid #6FA8E8 !important;
+  font-size: 15px !important;
 }
 
 .markdown-here-wrapper h5 {
-  border-left: 4px solid #58ACFA !important;
-  font-size: 14px !important;
+  border-left: 4px solid #58A889 !important;
+  font-size: 15px !important;
 }
 
 .markdown-here-wrapper h6 {
-  border-left: 4px solid #58D3F7 !important;
-  font-size: 14px !important;
+  border-left: 4px solid #6FA8E8 !important;
+  font-size: 15px !important;
 }
 
 .markdown-here-wrapper a {
-  color: #4183C4 !important;
+  color: #4E86C8 !important;
   text-decoration: none !important;
 }
 
@@ -108,12 +110,13 @@
 
 .markdown-here-wrapper li {
   line-height: 24px;
+  margin: 4px 0;
 }
 
 .markdown-here-wrapper hr {
   height: 4px;
   padding: 0;
-  margin: 16px 0;
+  margin: 18px 0;
   background-color: #e7e7e7;
   border: 0 none;
   overflow: hidden;
@@ -124,11 +127,11 @@
 .markdown-here-wrapper pre {
   background: #f8f8f8 !important;
   border: 1px solid #eaeaea;
-  border-radius: 3px;
+  border-radius: 4px;
   padding: 12px 13px;
   font-size: 13px;
   line-height: 1.6;
-  color: #898989;
+  color: #666;
   overflow: auto;
   white-space: pre;
 }
@@ -136,7 +139,7 @@
 .markdown-here-wrapper img {
   max-width: 100%;
   height: auto;
-  border: 2px solid #000000;
+  border: 1px solid #d8d8d8;
   padding: 2px;
   outline-offset: 2px;
   margin: 0 auto;
@@ -162,12 +165,12 @@
 .markdown-here-wrapper table th {
   font-weight: bold;
   text-align: center !important;
-  background: rgba(158,188,226,0.2);
+  background: rgba(111,168,232,0.16);
   white-space: nowrap;
 }
 
 .markdown-here-wrapper table tbody tr:nth-child(2n) {
-  background: rgba(158,188,226,0.12);
+  background: rgba(111,168,232,0.08);
 }
 
 .markdown-here-wrapper table td:nth-child(1) {
@@ -184,7 +187,7 @@
 
 .markdown-here-wrapper code,
 .markdown-here-wrapper tt {
-  color: #e96900;
+  color: #C06A2F;
   margin: 0 2px;
   padding: 0 5px;
   white-space: nowrap;
