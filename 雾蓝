@@ -1,0 +1,142 @@
+/* C2 Variant — Mist Blue + Serif | Mobile Reading */
+
+.markdown-here-wrapper {
+  font-size: 17px;
+  line-height: 1.8;
+  letter-spacing: 0.01em;
+  color: #44505A;
+  font-weight: 400;
+  font-family: "Songti SC", "Noto Serif CJK SC", "Source Han Serif SC", "STSong", serif;
+  word-wrap: break-word;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.markdown-here-wrapper > *:first-child { margin-top: 0 !important; }
+.markdown-here-wrapper > *:last-child { margin-bottom: 0 !important; }
+
+.markdown-here-wrapper p,
+.markdown-here-wrapper ul,
+.markdown-here-wrapper ol,
+.markdown-here-wrapper blockquote,
+.markdown-here-wrapper table,
+.markdown-here-wrapper pre {
+  margin: 1em 0;
+}
+
+.markdown-here-wrapper a {
+  color: #7FA9D8;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(127, 169, 216, 0.24);
+}
+
+.markdown-here-wrapper a:hover {
+  border-bottom-color: #7FA9D8;
+}
+
+.markdown-here-wrapper strong,
+.markdown-here-wrapper b {
+  color: #7FA9D8;
+  font-weight: 600;
+}
+
+.markdown-here-wrapper h1,
+.markdown-here-wrapper h2,
+.markdown-here-wrapper h3,
+.markdown-here-wrapper h4,
+.markdown-here-wrapper h5,
+.markdown-here-wrapper h6 {
+  color: #44505A;
+  font-weight: 600;
+  line-height: 1.34;
+  margin: 1.4em 0 0.72em;
+}
+
+.markdown-here-wrapper h1 {
+  font-size: 1.68em;
+  text-align: center;
+  padding-bottom: 0.4em;
+  border-bottom: 2px solid #7FA9D8;
+}
+
+.markdown-here-wrapper h2 {
+  font-size: 1.3em;
+  padding-left: 0.55em;
+  border-left: 4px solid #7FA9D8;
+}
+
+.markdown-here-wrapper h3 {
+  font-size: 1.12em;
+  color: #7FA9D8;
+}
+
+.markdown-here-wrapper ul,
+.markdown-here-wrapper ol {
+  padding-left: 1.4em;
+}
+
+.markdown-here-wrapper li {
+  margin: 0.28em 0;
+}
+
+.markdown-here-wrapper blockquote {
+  margin-left: 0;
+  padding: 0.85em 1em;
+  color: #5E6973;
+  background: #F5FAFF;
+  border-left: 4px solid #7FA9D8;
+  border-radius: 4px;
+}
+
+.markdown-here-wrapper code {
+  font-size: 0.9em;
+  font-family: "SFMono-Regular", Consolas, Menlo, monospace;
+  background: #F5FAFF;
+  color: #6F9FCE;
+  padding: 0.12em 0.32em;
+  border-radius: 4px;
+}
+
+.markdown-here-wrapper pre {
+  background: #F5FAFF;
+  border: 1px solid rgba(127, 169, 216, 0.15);
+  border-radius: 8px;
+  padding: 0.9em 1em;
+  overflow: auto;
+  line-height: 1.64;
+}
+
+.markdown-here-wrapper pre code {
+  background: transparent;
+  color: #44505A;
+  padding: 0;
+}
+
+.markdown-here-wrapper table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95em;
+}
+
+.markdown-here-wrapper th,
+.markdown-here-wrapper td {
+  padding: 0.68em 0.8em;
+  border: 1px solid #DFEAF6;
+  text-align: left;
+}
+
+.markdown-here-wrapper th {
+  background: #7FA9D8;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.markdown-here-wrapper tr:nth-child(even) td {
+  background: #F5FAFF;
+}
+
+.markdown-here-wrapper hr {
+  border: 0;
+  border-top: 1px solid rgba(127, 169, 216, 0.2);
+  margin: 1.85em 0;
+}
